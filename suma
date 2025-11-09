@@ -1,0 +1,11 @@
+# programa para calcular el promedio de notas
+
+def promedio(notas):
+  suma = 0
+  for n in notas:
+      suma = suma + n
+  prom = suma / len(notas)
+  return prom
+
+notas = [15, 14, 17, 13, 20]
+print("Promedio:", promedio(notas))
